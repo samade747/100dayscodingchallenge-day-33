@@ -1,4 +1,4 @@
-function datsUnitNewYear(){
+function datsUnitNewYearz(){
     const today: Date = new Date();
     const newYear: Date = new Date(today.getFullYear() + 1, 0, 1);
     const diff: number = newYear.getTime() - today.getTime();
@@ -8,4 +8,4 @@ function datsUnitNewYear(){
 
 
 
-console.log(datsUnitNewYear() + " days until next year")
+console.log(datsUnitNewYearz() + " days until next year")
